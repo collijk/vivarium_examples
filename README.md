@@ -4,7 +4,9 @@ This repository contains several [Jupyter notebooks](http://jupyter.org/) that c
 [vivarium](https://github.com/ihmeuw/vivarium) framework.  
 
 ## Installation Instructions
-You'll need Python 3.6+ in order to use vivarium.  I recommend setting up your enviromnent
+Clone this repository with git or download the zip file from github and unzip it somewhere on your computer.
+ 
+You'll need Python 3.6+ in order to use vivarium.  I recommend setting up your environment
 with [conda](https://conda.io/miniconda.html) as we'll be bringing in some complicated dependencies 
 from the scientific python stack. I'll assume that's the tool you're using and that you've followed
 the installation guide.  
