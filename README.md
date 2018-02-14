@@ -27,3 +27,10 @@ jupyter notebook
 which will open up a new window in your browser from which you
 can launch any of the available notebooks.
 
+### Contributors
+ 
+ - Zane Rankin
+ - [Abie Flaxman](https://github.com/aflaxman) 
+ - [Alec Deason](https://github.com/alec-deason)
+ - [James Collins](https://github.com/collijk)
+ 
