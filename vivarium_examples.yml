@@ -3,6 +3,7 @@ channels:
 - defaults
 dependencies:
 - bleach=2.1.2=py36_0
+- bzip2=1.0.6=h9a117a8_4
 - ca-certificates=2017.08.26=h1d4fec5_0
 - certifi=2018.1.18=py36_0
 - cycler=0.10.0=py36h93f1223_0
@@ -16,6 +17,7 @@ dependencies:
 - gmp=6.1.2=h6c8ec71_1
 - gst-plugins-base=1.12.4=h33fb286_0
 - gstreamer=1.12.4=hb53b477_0
+- hdf5=1.8.18=h6792536_1
 - html5lib=1.0.1=py36h2f9c1c0_0
 - icu=58.2=h9c2bf20_1
 - intel-openmp=2018.0.0=hc7b2577_8
@@ -41,6 +43,7 @@ dependencies:
 - libxcb=1.12=hcd93eb1_4
 - libxml2=2.9.7=h26e45fe_0
 - llvmlite=0.21.0=py36ha241eea_0
+- lzo=2.10=h49e0be7_2
 - markupsafe=1.0=py36hd9260cd_1
 - matplotlib=2.1.2=py36h0e671d2_0
 - mistune=0.8.3=py36_0
@@ -50,12 +53,14 @@ dependencies:
 - ncurses=6.0=h9df7e31_2
 - notebook=5.4.0=py36_0
 - numba=0.36.2=np114py36hc6662d5_0
+- numexpr=2.6.4=py36hc4a3f9a_0
 - numpy=1.14.0=py36h3dfced4_1
 - openssl=1.0.2n=hb7f436b_0
 - pandas=0.22.0=py36hf484d3e_0
 - pandoc=1.19.2.1=hea2e7c5_1
 - pandocfilters=1.4.2=py36ha6701b7_1
 - parso=0.1.1=py36h35f843b_0
+- patsy=0.5.0=py36_0
 - pcre=8.41=hc27e229_1
 - pexpect=4.3.1=py36_0
 - pickleshare=0.7.4=py36h63277f8_0
@@ -65,6 +70,7 @@ dependencies:
 - pygments=2.2.0=py36h0d3125c_0
 - pyparsing=2.2.0=py36hee85983_1
 - pyqt=5.6.0=py36h0386399_5
+- pytables=3.4.2=py36hc5f0ea4_2
 - python=3.6.4=hc3d631a_1
 - python-dateutil=2.6.1=py36h88d3b88_1
 - pytz=2017.3=py36h63b9c63_0
@@ -74,12 +80,14 @@ dependencies:
 - readline=7.0=ha6073c6_4
 - scikit-learn=0.19.1=py36h7aa7ec6_0
 - scipy=1.0.0=py36hbf646e7_0
+- seaborn=0.8.1=py36hfad7ec4_0
 - send2trash=1.4.2=py36_0
 - setuptools=38.4.0=py36_0
 - simplegeneric=0.8.1=py36_2
 - sip=4.18.1=py36h51ed4ed_2
 - six=1.11.0=py36h372c433_1
 - sqlite=3.22.0=h1bed415_0
+- statsmodels=0.8.0=py36h8533d0b_0
 - terminado=0.8.1=py36_1
 - testpath=0.3.1=py36h8cadb63_0
 - tk=8.6.7=hc745277_3
@@ -100,6 +108,6 @@ dependencies:
   - prompt-toolkit==1.0.15
   - pyaml==17.12.1
   - pyyaml==3.12
+  - tables==3.4.2
   - git+git://github.com/ihmeuw/vivarium.git#egg=vivarium
-
 
